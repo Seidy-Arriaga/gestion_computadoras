@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.icon-bar a {
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    font-size: 30px; /* Aumenta el tamaño del icono */
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+.icon-bar a:hover {
+    background-color: #575757;
+}
+
+.carousel-item img {
+    height: 50px; /* Ajusta la altura del slider según sea necesario */
+    object-fit: cover;
+    width: 100;
+}
+
+
+.carousel {
+    max-width: 50%; /* Ajusta el ancho máximo del slider */
+    height: 50px; /* Ajusta la altura del slider */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.product-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.product-item button:hover {
+    background-color: #575757;
+}
+
+.search-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filters {
+    margin: 20px;
+}
+
+.filters select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #292727;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #333;
+    color: #2b2a2a;
+}
+
+.table td a {
+    color: #333;
+    text-decoration: none;
+}
+
+.table td a:hover {
+    text-decoration: underline;
+}
